@@ -1,0 +1,364 @@
+App.progressCountTotal = 45;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer01.JPG');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'meyer01.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer01_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer01_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer01_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer01_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer01_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer01_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer02.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'meyer02.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer02_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer02_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer02_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer02_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer02_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer02_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer03.JPG');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'meyer03.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer03_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer03_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer03_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer03_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer03_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer03_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer04.JPG');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'meyer04.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer04_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer04_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer04_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer04_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer04_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer04_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer05.JPG');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'meyer05.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer05_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer05_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer05_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer05_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer05_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer05_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer06.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'meyer06.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer06_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer06_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer06_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer06_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer06_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer06_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer07.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'meyer07.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer07_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer07_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer07_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer07_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer07_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer07_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer08.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'meyer08.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer08_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer08_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer08_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer08_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer08_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer08_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer09.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'meyer09.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer09_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer09_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer09_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer09_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer09_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer09_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer10.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'meyer10.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer10_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer10_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer11.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'meyer11.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer11_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer11_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer12.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'meyer12.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer12_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer12_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer12_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer12_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer13.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'meyer13.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer13_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer13_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer13_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer13_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer14.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'meyer14.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer14_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer14_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer14_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer14_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer15.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'meyer15.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer15_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer15_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer15_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer15_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer15_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer15_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer16.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'meyer16.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer16_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer16_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer16_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer16_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer16_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer16_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer17.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'meyer17.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer17_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer17_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer17_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer17_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer17_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer17_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer18.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'meyer18.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer18_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer18_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer18_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer18_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer18_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer18_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer19.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'meyer19.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer19_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer19_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer19_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer19_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer19_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer19_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer20.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'meyer20.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer20_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer20_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer20_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer20_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer20_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer20_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer21.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'meyer21.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer21_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer21_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer21_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer21_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer21_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer21_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer22.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'meyer22.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer22_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer22_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer22_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer22_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer22_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer22_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer23.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'meyer23.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer23_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer23_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer23_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer23_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer23_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer23_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer24.JPG');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'meyer24.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer24_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer24_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer24_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer24_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer24_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer24_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer25.JPG');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'meyer25.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer25_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer25_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer25_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer25_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer25_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer25_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer26.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'meyer26.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer26_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer26_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer26_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer26_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer26_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer26_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer27.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'meyer27.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer27_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer27_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer27_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer27_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer27_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer27_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer28.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'meyer28.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer28_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer28_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer28_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer28_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer28_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer28_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer29.png');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'meyer29.png';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer29_png.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer29_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer29_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer29_png.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer29_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer29_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer30.JPG');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'meyer30.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer30_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer30_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer30_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer30_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer30_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer30_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer31.jpg');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'meyer31.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer31_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer31_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer31_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer31_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer31_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer31_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer32.JPG');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'meyer32.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer32_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer32_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer32_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer32_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer32_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer32_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer33.jpg');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'meyer33.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer33.png');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'meyer33.png';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_png.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer33_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_png.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer33_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer34.jpg');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'meyer34.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer34_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer34_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer34_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer34_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer34_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer34_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer35.jpg');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'meyer35.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer35_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer35_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer35_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer35_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer35_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer35_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer36.jpg');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'meyer36.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer36_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer36_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer36_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer36_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer36_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer36_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer37.jpg');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'meyer37.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer37_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer37_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer37_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer37_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer38.jpg');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'meyer38.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer38_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer38_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer38_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer38_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer39.jpg');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'meyer39.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer39_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer39_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer39_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer39_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer39_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer39_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer40.JPG');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'meyer40.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer40_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer40_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer40_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer40_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer40_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer40_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer41.jpg');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'meyer41.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer41_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer41_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer41_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer41_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer41_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer41_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer42.jpg');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'meyer42.jpg';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer42_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer42_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer42_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer42_jpg.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer42_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer42_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer43.JPG');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'meyer43.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer43_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer43_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer43_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer43_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer43_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer43_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Z|/Documents/Sites/meyer_truck/meyer_photosJ/meyer44.JPG');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'meyer44.JPG';
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer44_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer44_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/images/meyer44_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"75", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer44_JPG.jpg') || confirm('file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer44_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Z|/Documents/Sites/meyer_truck/assets/photo_album/thumbnails/meyer44_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
