@@ -1,0 +1,9 @@
+- type: fax
+  value: (641) 648-2391
+  icon: fas fa-fax
+- type: email
+  value: meyertruck1991@gmail.com
+  icon: fas fa-envelope
+- type: phone
+  value: (641) 648-3225
+  icon: fas fa-phone-alt

@@ -1,0 +1,28 @@
+
+<div class="navbar">
+	<div class="nav-contact">
+		<div class="container">
+			{% for item in site.data.contact %}
+				{% if item.type == "email" or item.type == "phone" %}
+					<div class="nav-contact-item flex"><i class="{{ item.icon }}"></i><p>{{ item.type | capitalize}}: {{ item.value }}</p></div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	<div class="navigation">
+		<div class="container">
+			<div class="logo">
+				<a href="/index.html">
+					<img src="../assets/images/nav-logo.png" alt="Meyer Truck & Alignment Logo">
+				</a>
+			</div>
+			<nav>
+				<ul>
+					{% for item in site.data.navigation %}
+						<li><a class="{% if page.nav-name == item.name %}nav-active{% endif %}" href="{{ item.link }}">{{ item.name }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
