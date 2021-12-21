@@ -15,6 +15,10 @@
 	padding: 0;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	display: flex;
   flex-direction: column;
@@ -56,7 +60,7 @@ a {
 
 .nav-contact {
 	width: 100%;
-	max-height: 30px;
+	height: 30px;
 	background-color: var(--accent-color);
 	color: var(--secondary-color);
 
@@ -64,6 +68,7 @@ a {
 
 .nav-contact .container {
 	display: flex;
+	height: 100%;
 	flex-direction: row;
 	justify-content: flex-end;
 }
@@ -73,12 +78,12 @@ a {
 }
 
 .nav-contact-item i {
-	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 .nav-contact-item p {
 	font-weight: 100;
-	font-size: 13px;
+	font-size: 1.3rem;
 	padding-left: 5px;
 }
 
@@ -92,6 +97,7 @@ a {
 .navigation .container {
 	display: flex;
 	flex-direction: row;
+	height: 100%;
 }
 
 .logo {
@@ -111,13 +117,16 @@ a {
 nav ul {
 	display: flex;
 	padding-left: 48px;
+	height: 100%;
 }
 
 nav a {
 	display: block;
 	text-align: center;
-	padding: 27px 38px;
+	height: 100%;
+	padding: 30px 38px;
 	color: var(--text-color);
+	font-size: 2rem;
 }
 
 nav a:hover {
@@ -156,10 +165,13 @@ img.home-showcase-background {
 .home-service .header {
 	max-width: 838px;
 	margin: 0 auto;
+	padding: 4rem 0 2rem 0;
+
 }
 
 .home-service .grid {
-	padding: 0px 157px;
+	padding: 1rem 157px;
+	
 }
 
 .home-service .grid-content {
@@ -167,7 +179,8 @@ img.home-showcase-background {
 	flex-direction: column;
 	justify-content: center;
 	line-height: 1.75;
-	font-size: 24px;
+	font-size: 2.4rem;
+	color: var(--text-color);
 }
 
 .grid-content p {
@@ -175,8 +188,38 @@ img.home-showcase-background {
 }
 
 .emphasized {
-	font-size: 27px;
+	font-size: 2.7rem;
 	font-weight: 500;
 	font-style: italic;
 	text-align: center;
+}
+
+.grid-image {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.grid-image img {
+	width: 100%;
+	max-width: 696px;
+	border-radius: 16px;
+	box-shadow: 4px 7px 6px rgba(0, 0, 0, .16);
+}
+
+.counties {
+	padding: 4rem 0 4rem 0;
+	color: var(--text-color);
+	text-align: center;
+}
+
+.counties h3 {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 3.5rem;
+	padding-bottom: 3rem;
+}
+
+.counties p {
+	font-weight: 600;
+	font-size: 3rem;
 }
