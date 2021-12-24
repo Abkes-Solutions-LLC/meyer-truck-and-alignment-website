@@ -53,6 +53,7 @@ a {
 	width: 100%;
 	height: 106px;
 	position: fixed;
+
 	z-index: 99;
 	top: 0px;
 	align-self: center;
@@ -138,21 +139,55 @@ nav a:hover {
 	// font-weight: 600;
 }
 
-// Home Page
+// Home Showcase Styling
 
 .home-showcase {
 	margin: 0 auto;
 	max-width: 1920px;
+	height: 100%;
 	max-height: 960px;
 	background: var(--primary-color);
+	justify-content: center;
 	overflow: hidden;
+	background-color: pink;
 }
 
 img.home-showcase-background {
-	object-fit: contain;
+	object-fit: cover;
 	object-position: bottom;
 	opacity: 0.3;
 }
+
+.home-showcase .overlay {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	max-width: 1920px;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.overlay-content {
+	width: 100%;
+	max-width: 1920px;
+	color: var(--secondary-color);
+	font-weight: 200;
+	font-size: 4.1rem;
+	padding: 0 20rem;
+}
+
+.overlay-content img {
+	max-width: 638px;
+	justify-self: center;
+}
+
+.overlay-content ul {
+	justify-self: center;
+}
+
+// Home Service Styling
 
 .home-service{
 	margin: 0 auto;
@@ -163,7 +198,7 @@ img.home-showcase-background {
 }
 
 .home-service .header {
-	max-width: 838px;
+	max-width: 713px;
 	margin: 0 auto;
 	padding: 4rem 0 2rem 0;
 
