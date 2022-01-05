@@ -26,7 +26,7 @@ body {
 	background-color: var(--light-color);
 	font-family: 'Poppins', sans-serif;
 	color: #333;
-	line-height: 1.6em;
+
 }
 
 strong {
@@ -83,7 +83,7 @@ a {
 	font-weight: 800;
 	font-style: italic;
 	text-align: center;
-	margin: 200px 0 100px 0;
+	margin: 133px 0 23px 0;
 }
 
 #certs {
@@ -91,11 +91,6 @@ a {
 	font-weight: 400;
 	text-align: center;
 }
-
-#certs p {
-	margin: 35px 0;
-}
-
 
 .default-header img {
 	margin: 64px auto;
@@ -181,7 +176,7 @@ nav a {
 	display: block;
 	text-align: center;
 	height: 100%;
-	padding: 30px 38px;
+	padding: 25px 38px;
 	color: var(--text-color);
 	font-size: 2rem;
 }
@@ -236,7 +231,7 @@ nav a:hover {
 }
 
 .overlay-content li {
-	margin: 4.25rem 0;
+	margin: 1rem 0;
 }
 
 .overlay-buttons{
@@ -323,7 +318,7 @@ nav a:hover {
 }
 
 .counties {
-	padding: 4rem 0 4rem 0;
+	padding: 2rem 0 2rem 0;
 	color: var(--text-color);
 	text-align: center;
 }
@@ -332,7 +327,6 @@ nav a:hover {
 	font-weight: 700;
 	font-style: italic;
 	font-size: 3.5rem;
-	padding-bottom: 3rem;
 }
 
 .counties p {
@@ -351,7 +345,7 @@ nav a:hover {
 }
 
 .home-difference h2 {
-	padding: 50px 0;
+	padding: 30px 0;
 	font-weight: 700;
 	font-size: 5rem;
 	text-align: center;
@@ -389,7 +383,7 @@ nav a:hover {
 }
 
 .home-history h2 {
-	padding: 50px 0;
+	padding: 30px 0;
 	font-weight: 700;
 	font-size: 5rem;
 	text-align: center;
@@ -420,8 +414,157 @@ nav a:hover {
 // SERVICES PAGE
 // ---------------------------------------------
 
+.services-list {
+	margin: 0 auto;
+	height: 100%;
+	max-width: 1920px;
+	background-color: var(--secondary-color);
+	color: var(--text-color);
+}
+
+.services-list p {
+	padding: 30px 0 0 305px;
+	font-size: 3.2rem;
+	font-weight: 600;
+}
+
+.services-list-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	width: 100%;
+	padding: 0 350px 30px 350px;
+}
+
+.services-list-grid ul {
+	font-size: 3.2rem;
+	font-weight: 400;
+}
+
+.services-list-grid li {
+	margin: 10px 0;
+	text-indent: -20px;
+}
+
+.services-list-grid li:before {
+	content: "-";
+}
+
+.services-cards {
+	margin: 0 auto;
+	background-color: var(--accent-color);
+	height: 100%;
+	max-width: 1920px;
+}
+
+.services-cards h2 {
+	padding: 30px 0;
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+	color: var(--secondary-color)
+}
+
+.services-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 45px;
+	height: 100%;
+	padding: 35px 150px 75px 150px;
+}
+
+.services-cards-grid > .card {
+	width: 370px;
+	height: 500px;
+	text-align: center;
+}
+
+.card .card-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 3.2rem;
+	font-weight: 400;
+	height: 85px;
+	line-height: 1.2;
+	border-bottom: 3px solid #707070;
+}
+.services-cards-grid h4{
+	align-self: center;
+	font-size: 3.2rem;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.services-cards-grid p{
+	padding-top: 20px;
+	font-size: 2.1rem;
+	font-weight: 300;
+}
+
+.schedule-appointment{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	height: 100%;
+	max-width: 1920px;
+	background-color: var(--secondary-color);
+}
+
+.schedule-appointment img {
+	max-width: 696px;
+	padding: 50px 0;
+}
 
 
+// ---------------------------------------------
+// CONTACT PAGE
+// ---------------------------------------------
+
+.contact-content {
+	margin: 0 auto;
+	background-color: var(--secondary-color);
+	height: 100%;
+	max-width: 1920px;
+}
+
+.contact-heading{
+	padding: 40px 275px;
+	text-align: center;
+	font-size: 3.2rem;
+	font-weight: 500;
+	color: var(--text-color)
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 100px;
+	row-gap: 50px;
+	padding: 20px 250px;
+	text-align: center;
+	align-items: center;
+}
+
+.contact-grid h5 {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.contact-grid p {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+.contact-grid b {
+	font-style: none;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.contact-grid > *:nth-child(3) {
+	grid-column: 1 / span 2;
+}
 
 // Footer Styling
 

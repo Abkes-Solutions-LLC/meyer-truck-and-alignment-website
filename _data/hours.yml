@@ -1,0 +1,7 @@
+- day: Monday-Friday
+  hours: 8:00a-4:00p
+- day: Saturday
+  hours: 8:00a-1:00p
+- day: Sunday
+  hours: Closed
+

@@ -7,14 +7,14 @@
 			<p id="copyright">
 				Copyright &#169; {{ 'now' | date: "%Y" }} Meyer Truck & Alignment
 			</p>
-			<p id="created-by" class="my-1">
+			<p id="created-by" class="">
 				Created by <a href="https://www.abkessolutions.com">Abkes Solutions, LLC</a>
 			</p>
 		</div>
 		<div class="footer-links">
 			<ul>
 				{% for item in site.data.navigation %}
-					<li class="my-3"><a href="{{ item.link }}">{{ item.name }}</a></li>
+					<li class="my-1"><a href="{{ item.link }}">{{ item.name }}</a></li>
 				{% endfor %}
 			</ul>
 			<a id="facebook-icon" href="https://www.facebook.com/Meyer-Truck-Alignment-1480991385461941"><i class="fab fa-facebook"></i></a>
