@@ -14,11 +14,15 @@
 	overflow: hidden;
 }
 
-.home-showcase .overlay {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+.home-showcase .container {
+	height: 100%;
 }
+
+// .overlay {
+// 	display: flex;
+// 	flex-direction: column;
+// 	width: 100%;
+// }
 
 .overlay-content {
 	width: 100%;
@@ -26,7 +30,6 @@
 	font-weight: 200;
 	font-size: 2.7rem;
 	padding: 21.3rem 13.3rem 0 13.3rem;
-
 }
 
 .overlay-content img {
