@@ -5,7 +5,7 @@ nav-name: Contact
 ---
 <div class="page-content">
 	<div class="default-header">
-		<div class="default-header-grid">
+		<div class="default-header-grid container">
 			<div class="default-header-content">
 				<h1>CONTACT</h1>
 			</div>
@@ -13,27 +13,29 @@ nav-name: Contact
 		</div>
 	</div>
 	<div class="contact-content">
-		<p class="contact-heading">
-			If you have any questions at all, feel free to give us a call or send us a message using 
-			any of the methods provided below! We look forward to doing business with you!
-		</p>
-		<div class="contact-grid">
-			<div class="methods">
-				{% for contact in site.data.contact %}
-					<p><b>{{ contact.type | capitalize}}:</b> {{ contact.value }}</p>
-				{% endfor %}
-			</div>
-			<div class="address">
-				<h5>Business Address</h5>
-				<p>Meyer Truck & Alignment, Inc.</p>
-				<p>480 Highway 65</p>
-				<p>Iowa Falls, IA 50126-9027</p>
-			</div>
-			<div class="hours">
-				<h5>Hours of Operation</h5>
-				{% for contact in site.data.hours %}
-					<p><b>{{ contact.day | capitalize}}: </b>{{ contact.hours }}</p>
-				{% endfor %}
+		<div class="container">
+			<p class="contact-heading">
+				If you have any questions at all, feel free to give us a call or send us a message using 
+				any of the methods provided below! We look forward to doing business with you!
+			</p>
+			<div class="contact-grid">
+				<div class="methods">
+					{% for contact in site.data.contact %}
+						<p><b>{{ contact.type | capitalize}}:</b> {{ contact.value }}</p>
+					{% endfor %}
+				</div>
+				<div class="address">
+					<h5>Business Address</h5>
+					<p>Meyer Truck & Alignment, Inc.</p>
+					<p>480 Highway 65</p>
+					<p>Iowa Falls, IA 50126-9027</p>
+				</div>
+				<div class="hours">
+					<h5>Hours of Operation</h5>
+					{% for contact in site.data.hours %}
+						<p><b>{{ contact.day | capitalize}}: </b>{{ contact.hours }}</p>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
