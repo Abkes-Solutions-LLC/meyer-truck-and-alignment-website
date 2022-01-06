@@ -1,0 +1,47 @@
+// ---------------------------------------------
+// CONTACT PAGE
+// ---------------------------------------------
+
+.contact-content {
+	margin: 0 auto;
+	background-color: var(--secondary-color);
+	height: 100%;
+}
+
+.contact-heading{
+	padding: 27px 184px;
+	text-align: center;
+	font-size: 2.13rem;
+	font-weight: 500;
+	color: var(--text-color)
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 67px;
+	row-gap: 34px;
+	padding: 14px 167px;
+	text-align: center;
+	align-items: center;
+}
+
+.contact-grid h5 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.contact-grid p {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.contact-grid b {
+	font-style: none;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.contact-grid > *:nth-child(3) {
+	grid-column: 1 / span 2;
+}
