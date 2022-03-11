@@ -1,0 +1,218 @@
+// ---------------------------------------------
+// INDEX PAGE
+// ---------------------------------------------
+// Home Showcase Styling
+
+.home-showcase {
+	margin: 0 auto;
+	height: 100%;
+	max-height: 640px;
+	background-image: url("../images/semi-stock.png");
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.home-showcase .container {
+	height: 100%;
+}
+
+// .overlay {
+// 	display: flex;
+// 	flex-direction: column;
+// 	width: 100%;
+// }
+
+.overlay-content {
+	width: 100%;
+	color: var(--secondary-color);
+	font-weight: 200;
+	font-size: 2.7rem;
+	padding: 21.3rem 13.3rem 0 13.3rem;
+}
+
+.overlay-content img {
+	max-width: 426px;
+	justify-self: center;
+}
+
+.overlay-content ul {
+	justify-self: center;
+}
+
+.overlay-content li {
+	margin: 0.66rem 0;
+}
+
+.overlay-buttons{
+	display: grid;
+	gap: 0 30px;
+	justify-content: center;
+	align-items: center;
+	margin: 8rem 0 11.1rem 0;
+}
+
+#services-button {
+	justify-self: right;
+	width: fit-content;
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: var(--text-color);
+	background-color: var(--secondary-color);
+	padding: 1.2rem;
+	border-radius: 40px;
+}
+
+#contact-us-button {
+	width: fit-content;
+	font-weight: 400;
+	font-size: 1.4rem;
+	text-decoration: underline;
+}
+
+// Home Service Styling
+
+.home-service{
+	margin: 0 auto;
+	height: 100%;
+	background-color: var(--secondary-color);
+	line-height: 2;
+}
+
+.home-service .header {
+	display: flex;
+	justify-content: center;
+	padding: 2.66rem 0 1.33rem 0;
+}
+
+.home-service .header img{
+	width: 100%;
+	max-width: 476px;
+}
+
+.home-service .grid {
+	padding: .66rem 105px;
+}
+
+.home-service .grid-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.6rem;
+	color: var(--text-color);
+}
+
+.grid-content p {
+	padding: .5rem 0;
+}
+
+.emphasized {
+	font-size: 1.8rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+}
+
+.grid-image {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.grid-image img {
+	width: 100%;
+	max-width: 464px;
+	border-radius: 16px;
+	box-shadow: 4px 7px 6px rgba(0, 0, 0, .16);
+}
+
+.counties {
+	padding: 1.33rem 0 1.33rem 0;
+	color: var(--text-color);
+	text-align: center;
+}
+
+.counties h3 {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.3rem;
+}
+
+.counties p {
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+// Home Difference Styling
+
+.home-difference {
+	margin: 0 auto;
+	height: 100%;
+	background-color: var(--accent-color);
+	color: var(--secondary-color);
+}
+
+.home-difference h2 {
+	padding: 20px 0;
+	font-weight: 700;
+	font-size: 3.33rem;
+	text-align: center;
+}
+
+.difference-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 27px;
+	row-gap: 34px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2;
+	padding: 0 97px 47px 97px;
+}
+
+.difference-grid p {
+	margin: auto 0;
+}
+
+.difference-grid img {
+	margin: auto;
+	width: 100%;
+	border-radius: 16px;
+}
+
+// History Styling
+
+.home-history {
+	margin: 0 auto;
+	height: 100%;
+	background-color: var(--secondary-color);
+	color: var(--text-color);
+}
+
+.home-history h2 {
+	padding: 20px 0;
+	font-weight: 700;
+	font-size: 3.33rem;
+	text-align: center;
+}
+
+.history-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 67px;
+	row-gap: 34px;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2;
+	padding: 0 97px 47px 97px;
+}
+
+.history-grid > *:nth-child(3) {
+	grid-column: 1 / span 2;
+}
+
+.home-history img {
+	margin: auto;
+	max-width: 547;
+	border-radius: 16px;
+}

@@ -1,0 +1,149 @@
+@media screen and (max-width: 1199px) {
+	.grid, .services-cards-grid, .services-list-grid,
+	.difference-grid, .history-grid,
+	.default-header-grid, .contact-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.overlay-buttons > .grid{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.difference-grid > *:nth-child(1) {
+		grid-row: 2;
+	}
+
+	.overlay-content ul {
+		display: none;
+	}
+
+	.history-grid, .contact-grid {
+		column-gap: 0px;
+	}
+
+	.history-grid > *, .contact-grid > * {
+		grid-column: 1 / span 1;
+	}
+
+	.history-grid > *:nth-child(2){
+		grid-row: 1;
+	}
+
+	.grid-image{
+		margin: 0 auto;
+	}
+
+	.default-header {
+		height: 382px;
+	}
+
+	.default-header-grid > img {
+		display: none;
+	}
+
+	.default-header-grid > .default-header-content {
+		margin: auto 0;
+	}
+
+	.services-list-grid {
+		gap: 0;
+	}
+
+	.card .card-header{
+		height: auto;
+		max-height: 57px;
+		padding-bottom: 5px;
+		width: fit-content;
+		margin: 0 auto;
+	}
+
+	.contact-heading {
+		padding: 27px 50px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.page-content {
+		top: 112px;
+	}
+
+	.nav-contact .container {
+		justify-content: center;
+	}
+
+	.navigation {
+		height: 92px;
+	}
+	.navigation .container {
+		flex-direction: column;
+	}
+
+	.navigation .logo {
+		align-self: center;
+		padding: 5px 0 0 0;
+	}
+
+	nav {
+		align-self: center;
+	}
+	.navigation ul {
+		padding: 0 0;
+		margin: 0 auto;
+	}
+
+	.overlay{
+		padding: 100px 0 100px 0;
+	}
+
+	.overlay-content{
+		padding: 0 40px;
+	}
+	.overlay-buttons {
+		margin: 8rem 0 0 0;
+	}
+
+	.difference-grid, .history-grid, .home-service .grid {
+		padding: 0 0 40px 0;
+		text-align: justify;
+	}
+
+	.services-list p {
+		padding: 20px 0 20px 0;
+	}
+
+	.services-list-grid {
+		padding: 0 0 20px 0;
+		gap: 0; 
+	}
+
+
+	.contact-heading{
+		padding: 27px 0;
+	}
+
+	.contact-grid {
+		padding: 0 0 40px 0;
+	}
+
+	.default-header-grid {
+		padding: 0 0;
+	}
+
+	.footer {
+		top: 112px;
+	}
+
+	.footer-grid {
+		grid-template-columns: 1fr;
+		gap: 0px;
+	}
+
+	.footer-copyright{
+		align-self: center;
+	}
+
+	.footer-links {
+		display: none;
+	}
+}
