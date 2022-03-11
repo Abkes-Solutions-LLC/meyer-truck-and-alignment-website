@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  services:
+    title: services
+    output: true
 plugins:
 - jekyll-feed
 - jekyll-sitemap
