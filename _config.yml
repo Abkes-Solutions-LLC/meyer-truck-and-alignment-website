@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  content-different:
+    title: content-different
+    output: true
   services:
     title: services
     output: true
