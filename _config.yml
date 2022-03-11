@@ -17,6 +17,9 @@ collections:
   services:
     title: services
     output: true
+  services-cards:
+    title: services-cards
+    output: true
 plugins:
 - jekyll-feed
 - jekyll-sitemap
