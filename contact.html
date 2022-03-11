@@ -9,7 +9,6 @@ nav-name: Contact
 			<div class="default-header-content">
 				<h1>CONTACT</h1>
 			</div>
-			<img src="./assets/images/mech-fill-3.png" alt="">
 		</div>
 	</div>
 	<div class="contact-content">
@@ -33,7 +32,7 @@ nav-name: Contact
 				<div class="hours">
 					<h5>Hours of Operation</h5>
 					{% for contact in site.data.hours %}
-						<p><b>{{ contact.day | capitalize}}: </b>{{ contact.hours }}</p>
+						<p><b>{{ contact.day }}: </b>{{ contact.hours }}</p>
 					{% endfor %}
 				</div>
 			</div>

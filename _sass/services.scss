@@ -10,17 +10,18 @@
 }
 
 .services-list p {
-	padding: 20px 0 0 204px;
+	padding: 20px 0 10px 0;
+	text-align: center;
 	font-size: 2.13rem;
 	font-weight: 600;
 }
 
 .services-list-grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	gap: 27px;
 	width: 100%;
-	padding: 0 234px 20px 234px;
+	padding: 0 0 20px 0px;
 }
 
 .services-list-grid ul {
@@ -34,7 +35,14 @@
 }
 
 .services-list-grid li:before {
-	content: "-";
+	content: "- ";
+}
+
+.sub-bullet {
+	padding-left: 2rem;
+	font-size: 1.6rem;
+	font-weight: 200;
+	overflow-wrap: break-word;
 }
 
 .services-cards {
@@ -67,6 +75,7 @@
 
 .card .card-header{
 	display: flex;
+	text-align: center;
 	flex-direction: column;
 	justify-content: center;
 	font-size: 2.13rem;
@@ -84,7 +93,7 @@
 
 .services-cards-grid p{
 	padding-top: 14px;
-	font-size: 1.4rem;
+	font-size: 1.45rem;
 	font-weight: 300;
 }
 

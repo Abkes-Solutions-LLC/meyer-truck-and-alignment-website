@@ -1,8 +1,22 @@
-- title: Expense Control
-  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-- title: Expert Service
-  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-- title: Maintenance Scheduling
-  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
-- title: Easy Estimates
-  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum 
+- title: "Expense Control"
+  desc: "Tailored to fit the way you operate, this 
+        innovative preventative maintenance solution gives you more control
+        over your schedule, your maintenance budget and
+        the quality of service you receive. Preventative 
+        maintenance is the best way to cut costs, minimize
+        breakdowns and protect your investment."
+- title: "Expert Service"
+  desc: "Our team combines the latest technology and 
+        diagnostic equipment with \"The World's Best\" 
+        technicians. The result is fast, efficient, quality 
+        service backed by an organization you can trust!"
+- title: "Maintenance Scheduling"
+  desc: "Like every big truck, preventative maintenance is 
+        a customized solution. This program offers several 
+        mainenance schedule choices and service levels, ranging
+        from intermittent \"dry inspections\" to comprehensive
+        bumper-to-tailight service packages."
+- title: "Easy Estimates"
+  desc: "Take time to talk to our service representative and they
+        will provide you with a detailed estimate that demonstrates
+        how our preventative maintenance plans can benefit YOUR business!"

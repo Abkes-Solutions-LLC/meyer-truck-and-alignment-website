@@ -14,19 +14,17 @@ nav-name: Services
 					<p>- ASE Certified Technicians -</p>
 				</div>
 			</div>
-			<img src="./assets/images/mech-fill-3.png" alt="">
 		</div>
 	</div>
 	<div class="services-list">
 		<div class="container">
 			<p>We're proud to offer the following services:</p>
 		<div class="services-list-grid">
-			{% assign columns = site.data.services.size | divided_by: 5.0 | ceil %}
-			{% for i in (1..columns) %}
-				{% assign offset = forloop.index0 | times: 5 %}
+			{% for serviceList in site.data.services %}
 					<ul>
-						{% for service in site.data.services limit: 5 offset: offset %}
-							<li>{{ service }}</li>
+						{% for service in serviceList.list %}
+							<li>{{ service.title }}</li>
+							<li class="sub-bullet">{{ service.desc }}</li>
 						{% endfor %}
 					</ul>
 			{% endfor %}

@@ -1,7 +1,5 @@
-- day: Monday-Friday
-  hours: 8:00a-4:00p
-- day: Saturday
-  hours: 8:00a-1:00p
-- day: Sunday
+- day: Tuesday-Saturday
+  hours: 7:30a-4:30p
+- day: Sunday-Monday
   hours: Closed
 

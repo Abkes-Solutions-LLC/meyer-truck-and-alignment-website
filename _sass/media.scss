@@ -1,0 +1,13 @@
+.image-gallery-grid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+	padding: 20px 0px 20px 0
+}
+
+.image-gallery-grid img {
+	max-width: 397px;
+	max-height: 245px;
+	object-fit: none;
+	object-position: top;
+}

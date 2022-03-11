@@ -55,14 +55,14 @@ a {
 
 .default-header {
 	height: 100%;
-	max-height: 382px;
+	height: 382px;
 	background-color: rgba(213, 13, 22, .86);
 }
 
 .default-header-grid {
 	display: grid;
 	gap: 40px;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr;
 	height: 100%;
 	padding: 0 100px;
 }

@@ -1,10 +1,26 @@
-- Alignment
-- Wheel Balance
-- Annual Inspections
-- Steering
-- Air-Conditioning
-- Brakes
-- Computer Diagnosis
-- Suspension
-- Drive Train
-- Diesel Tune-up and Overhauls
+- title: List One
+  note: Place items in this list for the list on the left side of the services page
+  list:
+    - title: Alignment
+      desc: Blahblahblahba sdufnaso idfnaiosdfni oasd jfoiasdnfoiasdnfo iasdfnaBlahbla hblahba sdufnasoidf naiosdfnioasdj foiasdnfoi asdnfoiasdfna
+    - title: Wheel Balance
+      desc: Blahblahblahba sdufnaso idfnaiosdfni oasd jfoiasdnfoiasdnfo iasdfnaBlahbla hblahba sdufnasoidf naiosdfnioasdj foiasdnfoi asdnfoiasdfna
+    - title: Annual Inspections
+      desc: Blahblahblahba sdufnaso idfnaiosdfni oasd jfoiasdnfoiasdnfo iasdfnaBlahbla hblahba sdufnasoidf naiosdfnioasdj foiasdnfoi asdnfoiasdfna
+    - title: Steering
+      desc: Blahblahblahba sdufnaso idfnaiosdfni oasd jfoiasdnfoiasdnfo iasdfnaBlahbla hblahba sdufnasoidf naiosdfnioasdj foiasdnfoi asdnfoiasdfna
+    - title: Air-Conditioning
+      desc: Blahblahblahba sdufnaso idfnaiosdfni 
+- title: List two
+  note: Place items in this list for the list on the right side of the services page
+  list: 
+    - title: Brakes
+      desc: 
+    - title: Computer Diagnosis
+      desc: This is a test thing
+    - title: Suspension
+      desc: Blahblahblahba sdufnaso idfnaiosdfni oasd jfoiasdnfoiasdnfo iasdfnaBlahbla hblahba sdufnasoidf naiosdfnioasdj foiasdnfoi asdnfoiasdfna
+    - title: Drive Train
+      desc: 
+    - title: Diesel Tune-up and Overhauls
+      desc: 
