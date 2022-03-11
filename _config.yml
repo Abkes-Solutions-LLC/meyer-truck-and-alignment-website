@@ -11,6 +11,9 @@ collections:
   content-different:
     title: content-different
     output: true
+  content-history:
+    title: content-history
+    output: true
   services:
     title: services
     output: true
