@@ -20,11 +20,14 @@ nav-name: Services
 		<div class="container">
 			<p>We're proud to offer the following services:</p>
 		<div class="services-list-grid">
-			{% for serviceList in site.data.services %}
+			{% assign columns = 2 %}
+			{% assign columnSize = site.services.size | divided_by: 2.0 | ceil %}
+			{%for i in (1..columns)%}
+				{% assign offset = forloop.index0 | times: columnSize %}
 					<ul>
-						{% for service in serviceList.list %}
+						{% for service in site.services limit: columnSize offset: offset%}
 							<li>{{ service.title }}</li>
-							<li class="sub-bullet">{{ service.desc }}</li>
+							<li class="sub-bullet">{{ service.content | markdownify | strip_html}}</li>
 						{% endfor %}
 					</ul>
 			{% endfor %}
@@ -35,12 +38,12 @@ nav-name: Services
 		<div class="container">
 			<h2>What you'll get with <strong>our</strong> services:</h2>
 			<div class="services-cards-grid">
-				{% for card in site.data.services-cards %}
+				{% for card in site.services-cards %}
 					<div class="card">
 						<div class="card-header">
 							<h4>{{ card.title }}</h4>
 						</div>	
-						<p>{{ card.desc }}</p>
+						<p>{{ card.content | markdownify | strip_html}}</p>
 					</div>
 				{% endfor %}
 			</div>
