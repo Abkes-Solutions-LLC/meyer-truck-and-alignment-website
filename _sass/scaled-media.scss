@@ -96,6 +96,10 @@
 		font-size: .9rem;
 	}
 
+	.image-gallery-grid{
+		grid-template-columns: 1fr;
+	}
+
 	.overlay{
 		padding: 100px 0 100px 0;
 	}
